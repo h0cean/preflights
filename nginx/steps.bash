@@ -43,5 +43,7 @@ ExecStartPost=/bin/sleep 0.1
 EOF
 
 systemctl daemon-reload
+systemctl enable nginx
+systemctl is-enabled nginx
 
 echo "NGINX installation complete."
