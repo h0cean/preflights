@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# # IMP # # Bottom line: nvm should never be run or installed as sudo. It's architected for single-user usage and isolated Node.js environments. Want a root/system-wide setup? Then skip nvm and use OS package managers like apt, dnf, brew, or asdf. Want help comparing these approaches?
+
+
 # Set the NVM version to install
 NVM_VERSION="v0.40.2"
 
