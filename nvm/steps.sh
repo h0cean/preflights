@@ -8,3 +8,5 @@ source ~/.bashrc
 # or ~/.bash_profile, ~/.zshrc depending on your shell
 
 nvm --version
+
+nvm install v22.15.0
